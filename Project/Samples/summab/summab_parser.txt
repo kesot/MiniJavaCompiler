@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+  <MainClass>
+    <ID Value="SummAB" />
+    <VarStatement>
+      <Variable>
+        <INT />
+        <ID Value="a" />
+      </Variable>
+    </VarStatement>
+    <VarStatement>
+      <Variable>
+        <INT />
+        <ID Value="b" />
+      </Variable>
+    </VarStatement>
+    <IdStatement>
+      <ID Value="a" />
+      <INTEGER Value="10" />
+    </IdStatement>
+    <IdStatement>
+      <ID Value="b" />
+      <INTEGER Value="5" />
+    </IdStatement>
+    <VarStatement>
+      <Variable>
+        <INT />
+        <ID Value="c" />
+      </Variable>
+    </VarStatement>
+    <IdStatement>
+      <ID Value="c" />
+      <PlusExpression>
+        <ID Value="a" />
+        <ID Value="b" />
+      </PlusExpression>
+    </IdStatement>
+    <PrintStatement>
+      <ID Value="c" />
+    </PrintStatement>
+  </MainClass>
+</Program>

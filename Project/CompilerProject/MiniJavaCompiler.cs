@@ -60,9 +60,7 @@ namespace CompilerProject
 
         public void Compile(string outputPath)
         {
-            Console.WriteLine(MessagesHelper.AboutProgram);
-
-            HasError = false;
+			HasError = false;
             string fileNameCommon = GetFileName(outputPath);
             Run(fileNameCommon);
         }
